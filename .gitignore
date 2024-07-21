@@ -1,24 +1,35 @@
-# Compiled class file
-*.class
+# Maven build output
+target/
+!target/*.jar
+!target/*.war
 
-# Log file
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Spring Boot specific
+spring-boot-devtools/
+
+# Logs
 *.log
 
-# BlueJ files
-*.ctxt
+# OS-specific files
+.DS_Store
+Thumbs.db
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Maven Wrapper
+.mvn/wrapper/mvn-wrapper.properties
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Environment variable files
+.env
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Local configuration files
+*.local
