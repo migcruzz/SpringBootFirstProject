@@ -1,16 +1,18 @@
 package com.dockerAPP.demo.service;
 
-import com.dockerAPP.demo.model.Person;
-import com.dockerAPP.demo.repository.PersonRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-import javax.annotation.PostConstruct;
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
+
+import javax.annotation.PostConstruct;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.dockerAPP.demo.model.Person;
+import com.dockerAPP.demo.repository.PersonRepository;
 
 @Service
 public class DataService {
